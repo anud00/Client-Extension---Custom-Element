@@ -1,0 +1,14 @@
+assemble:
+  - from: dist/assets
+    into: static
+
+task-manager:
+  friendlyURLMapping: task-manager
+  htmlElementName: task-manager
+  instanceable: true
+  name: Task Manager
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - "*.js"
+  useESM: true
